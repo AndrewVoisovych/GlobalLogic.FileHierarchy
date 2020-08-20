@@ -22,6 +22,11 @@ namespace GlobalLogic.FileHierarchy.Backend.Utils
             {
                 Directory.CreateDirectory(path);
             }
+
+            // Prohibited characters for file name
+            folderName = String.Join("", folderName.Split(':', '*', '?', '<', '>', '+', '"','|', '\\', '/', '/'))
+                .TrimEnd(' ').TrimEnd('.');
+
             string fileName = $"Json-{folderName}-{DateTime.Now.Date.ToShortDateString().Replace('/', '_')}.json";
             string filePath = path + fileName;
            
