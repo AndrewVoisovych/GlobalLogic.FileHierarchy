@@ -1,8 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalLogic.FileHierarchy.Backend", "GlobalLogic.FileHierarchy.Backend\GlobalLogic.FileHierarchy.Backend.csproj", "{D5788CFE-6C4F-4C0B-9F38-999F416625F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalLogic.FileHierarchy.WpfCore", "GlobalLogic.FileHierarchy.WpfCore\GlobalLogic.FileHierarchy.WpfCore.csproj", "{BD25A0CD-5F92-45C6-A85D-3899C739DA1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5788CFE-6C4F-4C0B-9F38-999F416625F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5788CFE-6C4F-4C0B-9F38-999F416625F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5788CFE-6C4F-4C0B-9F38-999F416625F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5788CFE-6C4F-4C0B-9F38-999F416625F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD25A0CD-5F92-45C6-A85D-3899C739DA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD25A0CD-5F92-45C6-A85D-3899C739DA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD25A0CD-5F92-45C6-A85D-3899C739DA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD25A0CD-5F92-45C6-A85D-3899C739DA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE7251B6-2920-4D06-A39C-373A94781CC7}
 	EndGlobalSection
 EndGlobal
